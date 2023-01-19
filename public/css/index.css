@@ -4,12 +4,43 @@ body {
 
     background-image: url('../images/1-flower-wallpaper\ \(1\).jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 1920px 1080px;
 }
+
+p{
+    background-color: bisque;
+    text-align: center;
+    font-size: larger;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+#titleMainpage {
+    font-size: 50pt;
+    
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
   
-#lol {
-    font-size: 1000px;
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }

@@ -10,6 +10,9 @@ require('colors');
 const indexPage = require('./routes/index');
 const aboutPage = require('./routes/about');
 const shopPage = require('./routes/shop');
+const helpPage = require('./routes/help');
+const checkoutPage = require('./routes/checkout');
+
 
 const app = express();
 
@@ -27,8 +30,11 @@ app.set('view engine', 'ejs'); // Set up ejs for templating => test
 // Test about what line 21 is doing. Setting up a route
 // Routers
 app.use('/', indexPage);
-app.use('/about', boutPage);
+app.use('/about', aboutPage);
 app.use('/shop', shopPage);
+app.use('/help', helpPage);
+app.use('/checkout', checkoutPage);
+
 
 
 // Error : Page not found

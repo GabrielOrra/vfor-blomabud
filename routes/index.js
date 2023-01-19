@@ -4,7 +4,7 @@ const router = express.Router();
 
 // get index page
 router.get("/", (req, res) => {
-    res.render("index", {title: "Home" });
+    res.render("", {title: "Home" });
 });
 
-mobile.exports = router;
+module.exports = router;
