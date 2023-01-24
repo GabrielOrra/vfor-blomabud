@@ -7,18 +7,6 @@ body {
     background-repeat: no-repeat;
     background-size: 1920px 1080px;
 }
-
-#aboutMainpage{
-    background-color: bisque;
-    text-align: center;
-    margin-left: 300px;
-    margin-right: 300px;
-    font-family: 'Roboto mono';
-    font-size: x-large;
-    border: 1px solid black;
-    border-radius: 10px;
-}
-
 #titleMainpage {
     font-size: 50pt;
     margin-top: -1px;
@@ -30,6 +18,27 @@ a{
     text-decoration: none;
     color: black;
 }
+#aboutHelppage{
+    background-color: bisque;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    font-family: 'Roboto Mono';
+    font-size: x-large;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
 
 ul {
     list-style-type: none;
@@ -52,6 +61,7 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Roboto Mono';
   }
   
   /* Change the link color to #111 (black) on hover */
