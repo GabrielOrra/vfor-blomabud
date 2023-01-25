@@ -25,6 +25,7 @@ body {
     margin-bottom: -5px;
     text-align: center;
     font-family: 'Roboto Mono';
+    text-shadow: white 1px 1px;
 }
 a{
     text-decoration: none;
@@ -52,6 +53,7 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Roboto Mono';
   }
   
   /* Change the link color to #111 (black) on hover */

@@ -1,6 +1,62 @@
-p{
-    background-color: bisque;
-}
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
 body {
+    max-width: 100vw;
+    max-height: 100vh;
+
     background-image: url('../images/1-flower-wallpaper\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
 }
+
+#aboutPage{
+    background-color: bisque;
+    text-align: center;
+    margin-left: 600px;
+    margin-right: 600px;
+    font-family: 'Roboto mono';
+    font-size: x-large;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#titleMainpage {
+    font-size: 50pt;
+    margin-top: -1px;
+    margin-bottom: -5px;
+    text-align: center;
+    font-family: 'Roboto Mono';
+    text-shadow: white 1px 1px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: x-large;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Roboto Mono';
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
