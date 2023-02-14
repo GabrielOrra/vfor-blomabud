@@ -1,6 +1,7 @@
-
- body { 
-  background: url('../images/1-flower-wallpaper\ \(1\).jpg'); no-repeat center center fixed; 
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
+ 
+body { 
+  background: url('../images/1-flower-wallpaper\ \(1\).jpg') no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
